@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #255538;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    grid-area: header;
+}
+
+header h3 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.luna img {
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+}
+
+body {
+    background-color: #f3e5d8;
+}
+
+footer {
+    background-color: #265538;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+  } 
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.form-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-container h2 {
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #255538;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1e4532;
+}
