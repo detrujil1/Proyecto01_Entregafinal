@@ -53,14 +53,7 @@ body {
 .mainBlack{
     color: white;
 }
-.imagenRecetablack{
-    background-color: grey;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    padding: 1rem;
-    margin: 10px;
-    align-items: center;
-}
+
 nav {
     background-image: url("../images/hero.jpg");
     display: flex;
@@ -111,6 +104,13 @@ main{
     margin: 10px;
     align-items: center;
 }
+.imagenReceta:hover{
+    transform: scale(1.02);
+    box-shadow: 7.5px 7.5px 5px 2.5px rgba(0, 0, 0, 0.158);
+    transition: transform ease-in-out 600ms;
+}
+
+
 .imagenReceta img {
     width: 100%;  /* Ajusta este valor según tus necesidades */
     height: 200px; /* Ajusta este valor según tus necesidades */
@@ -122,6 +122,15 @@ main{
     text-align: left; /* Asegura que el texto de la lista esté alineado a la izquierda */
 
 
+}
+
+.imagenRecetablack{
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 1rem;
+    margin: 10px;
+    align-items: center;
 }
 .sinLinkSend {
     text-decoration: none; /* Quita el subrayado de los enlaces */

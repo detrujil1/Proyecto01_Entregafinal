@@ -6,6 +6,8 @@ const recipeContainers = document.querySelectorAll(".imagenReceta");
 botonLuna.addEventListener("click", () =>{
     teamBlack.classList.toggle("bodyBlack")
     mainBlack.classList.toggle("mainBlack")
-    recipeContainers.classList.toggle("imagenRecetablack")
+    recipeContainers.forEach(item=>{
+        item.classList.toggle("imagenRecetablack")
+    })
 })
 
