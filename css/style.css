@@ -43,8 +43,23 @@ header h3 {
 
 body {
     background-color: #f3e5d8;
-  }
+}
 
+.bodyBlack{
+    background-color: black;
+}
+
+.mainBlack{
+    color: white;
+}
+.imagenRecetablack{
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 1rem;
+    margin: 10px;
+    align-items: center;
+}
 nav {
     background-image: url("../images/hero.jpg");
     display: flex;
@@ -95,7 +110,7 @@ main{
     align-items: center;
 }
 .imagenReceta img {
-    width: auto;  /* Ajusta este valor según tus necesidades */
+    width: 100%;  /* Ajusta este valor según tus necesidades */
     height: 200px; /* Ajusta este valor según tus necesidades */
     object-fit: cover; /* Asegura que la imagen cubra el área definida sin distorsionarse */
 }

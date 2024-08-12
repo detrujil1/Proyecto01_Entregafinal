@@ -29,6 +29,8 @@ header h3 {
 
 body {
     background-color: #f3e5d8;
+    margin: 0; 
+    
 }
 
 footer {
@@ -47,8 +49,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-
+    flex-grow: 1;
+    padding: 20px;
+    min-height: 89vh;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .form-container {
@@ -58,8 +63,13 @@ main {
     border-radius: 10px;
     width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 550px;
 }
 
+header, footer {
+    flex-shrink: 0; 
+}
 .form-container h2 {
     margin-bottom: 10px;
 }
