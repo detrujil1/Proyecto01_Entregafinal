@@ -79,6 +79,7 @@ nav h3 {
     font-size: 1.5rem; /* Tamaño de fuente */
     font-weight: bold; /* Grosor de la fuente */
     text-align: center; /* Alineación del texto */
+    
 }
 
 .titulo{
@@ -119,8 +120,13 @@ main{
     align-items: center;
     text-align: left; /* Asegura que el texto de la lista esté alineado a la izquierda */
 
+
 }
 
+.sinLink{
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: inherit; /* Hereda el color del padre para mantener coherencia */
+}
 .recipe-details ul {
     padding-left: 20px; /* Ajusta el margen izquierdo para alinear la lista con el título */
     margin-top: 10px; /* Añade un margen superior para separar la lista del título */
@@ -128,6 +134,7 @@ main{
 
 .recipe-details h3 {
     margin-bottom: 10px; /* Añade un margen inferior para separar el título de la lista */
+
 }
 
 footer {
