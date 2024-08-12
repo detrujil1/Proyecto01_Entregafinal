@@ -28,6 +28,14 @@ header {
     grid-area: header;
 }
 
+.sinLinkSend {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: inherit; /* Hereda el color del padre para mantener coherencia */    
+    text-align: right;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
 header h3 {
     margin: 0;
     flex-grow: 1;
@@ -39,6 +47,7 @@ header h3 {
     padding: 10px;
     border-radius: 50%;
     width: 50px;
+    cursor: pointer;
 }
 
 body {
@@ -175,7 +184,18 @@ aside {
     /* Apila los elementos verticalmente */
     gap: 10px;
     margin-bottom: 10px;
+    
 }
+.sinLink{
+text-decoration: none; /* Quita el subrayado de los enlaces */
+color: inherit; /* Hereda el color del padre para mantener coherencia */
+display: flex;
+flex-direction: row;
+gap: 10px;
+cursor: pointer;    
+
+}
+
 
 .more-recipes img {
     width: 50px;

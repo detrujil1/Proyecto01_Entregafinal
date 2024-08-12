@@ -39,6 +39,7 @@ header h3 {
     padding: 10px;
     border-radius: 50%;
     width: 50px;
+    cursor: pointer;
 }
 
 body {
@@ -121,6 +122,12 @@ main{
     text-align: left; /* Asegura que el texto de la lista esté alineado a la izquierda */
 
 
+}
+.sinLinkSend {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: inherit; /* Hereda el color del padre para mantener coherencia */    
+    text-align: right;
+    flex-grow: 1;
 }
 
 .sinLink{
