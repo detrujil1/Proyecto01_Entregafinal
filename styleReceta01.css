@@ -43,6 +43,12 @@ header h3 {
 }
 
 
+.sinLink:hover{
+    transform: scale(1.02);
+    box-shadow: 7.5px 7.5px 5px 2.5px rgba(0, 0, 0, 0.158);
+    transition: transform ease-in-out 600ms;
+}
+
 .luna img {
     padding: 10px;
     border-radius: 50%;
